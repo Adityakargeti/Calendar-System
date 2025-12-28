@@ -14,6 +14,7 @@ A minimal, thread-safe calendar management system in C++ focused on correctness,
 
 ## Architecture
 
+```text
 ┌──────────────────────────────┐
 │             CLI              │
 │          (main.cpp)          │
@@ -46,6 +47,7 @@ A minimal, thread-safe calendar management system in C++ focused on correctness,
 │  - Local → UTC conversion    │
 │  - UTC → Local conversion    │
 └──────────────────────────────┘
+```
 
 ### Components
 
